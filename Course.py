@@ -230,5 +230,3 @@ for t in teacher_list:
     ids = t[3].split(',')  # 所教课程
     teacher = Teacher(t[1], t[2], ids)
     t_list.append(teacher)
-
-a=0
